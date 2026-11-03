@@ -1,0 +1,20 @@
+test_displacement_control (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_displacement_control) ... ok
+test_opcode_control (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_opcode_control) ... ok
+test_real_source_and_relocation (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_real_source_and_relocation) ... ok
+test_real_target_native_boundary_and_fde (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_real_target_native_boundary_and_fde) ... ok
+test_relocation_addend_control (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_relocation_addend_control) ... ok
+test_relocation_offset_control (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_relocation_offset_control) ... ok
+test_relocation_type_control (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_relocation_type_control) ... ok
+test_same_size_wrong_digest_before_native_tools (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_same_size_wrong_digest_before_native_tools) ... ok
+test_source_bytes_control (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_source_bytes_control) ... ok
+test_source_column_control (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_source_column_control) ... ok
+test_source_length_control (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_source_length_control) ... ok
+test_source_line_control (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_source_line_control) ... ok
+test_source_pointer_control (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_source_pointer_control) ... ok
+test_truncated_elf (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_truncated_elf) ... ok
+test_wrong_identity_before_native_tools (test_node115_db_home_coordinates.DbHomeCoordinateTests.test_wrong_identity_before_native_tools) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 5.396s
+
+OK

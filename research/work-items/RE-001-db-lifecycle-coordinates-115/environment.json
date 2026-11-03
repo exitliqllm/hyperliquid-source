@@ -1,0 +1,8 @@
+{
+  "python": "3.11.11",
+  "platform": "Linux-6.12.114-fly-x86_64-with-glibc2.36",
+  "binutils": {
+    "readelf": "GNU readelf (GNU Binutils for Debian) 2.40",
+    "objdump": "GNU objdump (GNU Binutils for Debian) 2.40"
+  }
+}

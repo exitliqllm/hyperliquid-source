@@ -1,0 +1,42 @@
+{
+  "instruction_va": "0x4469b64",
+  "instruction_file_offset": "0x4468b64",
+  "instruction_bytes": "488d15f51d0202",
+  "location_va": "0x648b960",
+  "location_file_offset": "0x6489960",
+  "relocation_file_offset": "0xbc1a8",
+  "relocation_info": 8,
+  "source_va": "0x448051",
+  "source_file_offset": "0x448051",
+  "source_path": "db/src/db_home.rs",
+  "line": 85,
+  "column": 13,
+  "target_size": 105896032,
+  "target_sha256": "a6e2897cd051213d004802deca416e8eca62b7a8278fa39f249e98c3867b5301",
+  "source_revision": "8fd8db680ec4bfef40996e5616bce3d5156d0b86",
+  "fde_start": "0x44699c0",
+  "fde_end": "0x4469bd8",
+  "fde_bytes": 536,
+  "commands": [
+    [
+      "readelf",
+      "--debug-dump=frames",
+      "artifacts/node/115/hl-node"
+    ],
+    [
+      "objdump",
+      "-d",
+      "-M",
+      "intel",
+      "--start-address=0x44699c0",
+      "--stop-address=0x4469bd8",
+      "artifacts/node/115/hl-node"
+    ]
+  ],
+  "native_reference": "lea    rdx,[rip+0x2021df5]        # 648b960 <__register_atfork@plt+0x99dd0>",
+  "versions": {
+    "readelf": "GNU readelf (GNU Binutils for Debian) 2.40",
+    "objdump": "GNU objdump (GNU Binutils for Debian) 2.40"
+  },
+  "limitations": "One static source-reference coordinate; not semantics, complete xrefs, storage schema, runtime equivalence or a completion gate."
+}
