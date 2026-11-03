@@ -1,0 +1,28 @@
+{
+  "target": "artifacts/node/115/hl-node",
+  "sha256": "a6e2897cd051213d004802deca416e8eca62b7a8278fa39f249e98c3867b5301",
+  "bytes": 105896032,
+  "observation": {
+    "location_va": 105503992,
+    "location_offset": 105495800,
+    "path_va": 4501165,
+    "path_offset": 4501165,
+    "path": "node/src/consensus/timer.rs",
+    "line": 17,
+    "column": 30,
+    "relocation_offset": 860568,
+    "reference_va": 82618179,
+    "reference_offset": 82614083,
+    "instruction_hex": "488d0dae355d01",
+    "fde_start": 82617808,
+    "fde_end": 82618412,
+    "fde_offset": 19949572,
+    "cie_offset": 17028612,
+    "extent_bytes": 604,
+    "extent_sha256": "8ed46d0d802b46b9527c8352615507f1b0285aaa2e8ba43848d7cdfe1d4d3305"
+  },
+  "tools": {
+    "objdump": "GNU objdump (GNU Binutils for Debian) 2.40",
+    "readelf": "GNU readelf (GNU Binutils for Debian) 2.40"
+  }
+}

@@ -1,0 +1,22 @@
+test_authenticated_native_proof (__main__.TimerCoordinates.test_authenticated_native_proof) ... ok
+test_digest_rejects_changed_target (__main__.TimerCoordinates.test_digest_rejects_changed_target) ... ok
+test_duplicate_relocation (__main__.TimerCoordinates.test_duplicate_relocation) ... ok
+test_fde_cie_reference (__main__.TimerCoordinates.test_fde_cie_reference) ... ok
+test_fde_range (__main__.TimerCoordinates.test_fde_range) ... ok
+test_identity_rejects_truncation (__main__.TimerCoordinates.test_identity_rejects_truncation) ... ok
+test_lea_displacement (__main__.TimerCoordinates.test_lea_displacement) ... ok
+test_lea_opcode (__main__.TimerCoordinates.test_lea_opcode) ... ok
+test_location_column (__main__.TimerCoordinates.test_location_column) ... ok
+test_location_length (__main__.TimerCoordinates.test_location_length) ... ok
+test_location_line (__main__.TimerCoordinates.test_location_line) ... ok
+test_missing_relocation (__main__.TimerCoordinates.test_missing_relocation) ... ok
+test_native_reference_missing (__main__.TimerCoordinates.test_native_reference_missing) ... ok
+test_native_wrong_boundary (__main__.TimerCoordinates.test_native_wrong_boundary) ... ok
+test_path_corruption (__main__.TimerCoordinates.test_path_corruption) ... ok
+test_relocation_addend (__main__.TimerCoordinates.test_relocation_addend) ... ok
+test_relocation_type (__main__.TimerCoordinates.test_relocation_type) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 5.053s
+
+OK
