@@ -1,0 +1,35 @@
+{
+  "base": "7ff06a0973b5b8c79bde0b229c9bb2eabf8b29a6",
+  "scope": "local pinned-tree verifier and scoped tests only; not independent publication validation or current-main proof",
+  "captured_code_executed": false,
+  "results": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "research/work-items/RE-015-literal-prefix-consumer-115/verify_consumer.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.206,
+      "stdout": "{\n  \"call_hex\": \"ff15c0d3f304\",\n  \"call_slot_va\": \"0x64df6e8\",\n  \"call_va\": \"0x15a2322\",\n  \"captured_code_executed\": false,\n  \"destination_va\": \"0x440f30\",\n  \"entry_13_bytes_hex\": \"c0012fc0082f686c2d6e6f6465\",\n  \"frames\": [\n    [\n      \"0x3ae32c\",\n      \"0x39672c\",\n      \"0x15a20a0\",\n      \"0x15a37fe\"\n    ]\n  ],\n  \"literal_token_hex\": \"686c2d6e6f6465\",\n  \"literal_va\": \"0x440f36\",\n  \"relative_writers\": [\n    [\n      \"0x64df6e8\",\n      \"0x135048\",\n      8,\n      0,\n      \"0x141e3a0\"\n    ],\n    [\n      \"0x64e0a98\",\n      \"0x138810\",\n      8,\n      0,\n      \"0x1689420\"\n    ]\n  ],\n  \"site_file_offset\": \"0x15a130b\",\n  \"site_hex\": \"488d351eece9fe\",\n  \"site_va\": \"0x15a230b\",\n  \"target_bytes\": 105896032,\n  \"target_sha256\": \"a6e2897cd051213d004802deca416e8eca62b7a8278fa39f249e98c3867b5301\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "tests/test_literal_prefix_consumer_115.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.666,
+      "stdout": "",
+      "stderr": "test_authentic_target (__main__.ConsumerEvidence.test_authentic_target) ... ok\ntest_corruption_controls (__main__.ConsumerEvidence.test_corruption_controls) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 3.550s\n\nOK\n"
+    }
+  ],
+  "proof_inputs": {
+    "research/work-items/RE-015-literal-prefix-consumer-115/verify_consumer.py": "283e1e910ba3bc65c8b0a29638395d785d6c9f6f5a172267d1ff96f281da4e25",
+    "research/work-items/RE-015-literal-prefix-consumer-115/verified-consumer.json": "dd0fc7a610099b53bd8f874dc2223df1e842ef8d2ae15be6188691bba5e7a030",
+    "tests/test_literal_prefix_consumer_115.py": "47a4c939922a9c7e0d85ea709aa29540a58cef0ac1bc711c3679d866adb7bf3e"
+  }
+}

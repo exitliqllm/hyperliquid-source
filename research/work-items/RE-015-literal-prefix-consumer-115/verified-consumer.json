@@ -1,0 +1,39 @@
+{
+  "call_hex": "ff15c0d3f304",
+  "call_slot_va": "0x64df6e8",
+  "call_va": "0x15a2322",
+  "captured_code_executed": false,
+  "destination_va": "0x440f30",
+  "entry_13_bytes_hex": "c0012fc0082f686c2d6e6f6465",
+  "frames": [
+    [
+      "0x3ae32c",
+      "0x39672c",
+      "0x15a20a0",
+      "0x15a37fe"
+    ]
+  ],
+  "literal_token_hex": "686c2d6e6f6465",
+  "literal_va": "0x440f36",
+  "relative_writers": [
+    [
+      "0x64df6e8",
+      "0x135048",
+      8,
+      0,
+      "0x141e3a0"
+    ],
+    [
+      "0x64e0a98",
+      "0x138810",
+      8,
+      0,
+      "0x1689420"
+    ]
+  ],
+  "site_file_offset": "0x15a130b",
+  "site_hex": "488d351eece9fe",
+  "site_va": "0x15a230b",
+  "target_bytes": 105896032,
+  "target_sha256": "a6e2897cd051213d004802deca416e8eca62b7a8278fa39f249e98c3867b5301"
+}

@@ -1,0 +1,217 @@
+{
+  "target_sha256": "a6e2897cd051213d004802deca416e8eca62b7a8278fa39f249e98c3867b5301",
+  "target_bytes": 105896032,
+  "fde": [
+    "0x15a20a0",
+    "0x15a37fe"
+  ],
+  "site_va": "0x15a230b",
+  "site_file_offset": "0x15a130b",
+  "site_hex": "488d351eece9fe",
+  "decoded_destination": "0x440f30",
+  "destination_file_offset": "0x440f30",
+  "destination_32_bytes_hex": "c0012fc0082f686c2d6e6f64650018696e76616c6964207669736f72206d6574",
+  "excerpt_range": [
+    "0x15a22cb",
+    "0x15a23a8"
+  ],
+  "excerpt_bytes": 221,
+  "rows": [
+    {
+      "va": 22684363,
+      "hex": "4889bc2488000000",
+      "instruction": "mov    QWORD PTR [rsp+0x88],rdi"
+    },
+    {
+      "va": 22684371,
+      "hex": "488d442458",
+      "instruction": "lea    rax,[rsp+0x58]"
+    },
+    {
+      "va": 22684376,
+      "hex": "4889842410020000",
+      "instruction": "mov    QWORD PTR [rsp+0x210],rax"
+    },
+    {
+      "va": 22684384,
+      "hex": "488d05b9980400",
+      "instruction": "lea    rax,[rip+0x498b9]        # 15ebba0 <_ZNKSt5ctypeIcE8do_widenEc@@Base-0x475c890>"
+    },
+    {
+      "va": 22684391,
+      "hex": "4889842418020000",
+      "instruction": "mov    QWORD PTR [rsp+0x218],rax"
+    },
+    {
+      "va": 22684399,
+      "hex": "488d442450",
+      "instruction": "lea    rax,[rsp+0x50]"
+    },
+    {
+      "va": 22684404,
+      "hex": "4889842420020000",
+      "instruction": "mov    QWORD PTR [rsp+0x220],rax"
+    },
+    {
+      "va": 22684412,
+      "hex": "488b0595e7f304",
+      "instruction": "mov    rax,QWORD PTR [rip+0x4f3e795]        # 64e0a98 <__register_atfork@plt+0xeef08>"
+    },
+    {
+      "va": 22684419,
+      "hex": "4889842428020000",
+      "instruction": "mov    QWORD PTR [rsp+0x228],rax"
+    },
+    {
+      "va": 22684427,
+      "hex": "488d351eece9fe",
+      "instruction": "lea    rsi,[rip+0xfffffffffee9ec1e]        # 440f30 <_ZNKSt5ctypeIcE8do_widenEc@@Base-0x5907500>"
+    },
+    {
+      "va": 22684434,
+      "hex": "488dbc2450010000",
+      "instruction": "lea    rdi,[rsp+0x150]"
+    },
+    {
+      "va": 22684442,
+      "hex": "488d942410020000",
+      "instruction": "lea    rdx,[rsp+0x210]"
+    },
+    {
+      "va": 22684450,
+      "hex": "ff15c0d3f304",
+      "instruction": "call   QWORD PTR [rip+0x4f3d3c0]        # 64df6e8 <__register_atfork@plt+0xedb58>"
+    },
+    {
+      "va": 22684456,
+      "hex": "4c8bbc2450010000",
+      "instruction": "mov    r15,QWORD PTR [rsp+0x150]"
+    },
+    {
+      "va": 22684464,
+      "hex": "4c8ba42458010000",
+      "instruction": "mov    r12,QWORD PTR [rsp+0x158]"
+    },
+    {
+      "va": 22684472,
+      "hex": "488b842460010000",
+      "instruction": "mov    rax,QWORD PTR [rsp+0x160]"
+    },
+    {
+      "va": 22684480,
+      "hex": "4c89642468",
+      "instruction": "mov    QWORD PTR [rsp+0x68],r12"
+    },
+    {
+      "va": 22684485,
+      "hex": "4889442470",
+      "instruction": "mov    QWORD PTR [rsp+0x70],rax"
+    },
+    {
+      "va": 22684490,
+      "hex": "4c8b2defe7f304",
+      "instruction": "mov    r13,QWORD PTR [rip+0x4f3e7ef]        # 64e0b40 <__register_atfork@plt+0xeefb0>"
+    },
+    {
+      "va": 22684497,
+      "hex": "418b85c0010000",
+      "instruction": "mov    eax,DWORD PTR [r13+0x1c0]"
+    },
+    {
+      "va": 22684504,
+      "hex": "85c0",
+      "instruction": "test   eax,eax"
+    },
+    {
+      "va": 22684506,
+      "hex": "0f85f4100000",
+      "instruction": "jne    15a3454 <_ZNKSt5ctypeIcE8do_widenEc@@Base-0x47a4fdc>"
+    },
+    {
+      "va": 22684512,
+      "hex": "48bf0000000000000080",
+      "instruction": "movabs rdi,0x8000000000000000"
+    },
+    {
+      "va": 22684522,
+      "hex": "41c1e603",
+      "instruction": "shl    r14d,0x3"
+    },
+    {
+      "va": 22684526,
+      "hex": "488d058bdee504",
+      "instruction": "lea    rax,[rip+0x4e5de8b]        # 6400200 <__register_atfork@plt+0xe670>"
+    },
+    {
+      "va": 22684533,
+      "hex": "4c01f0",
+      "instruction": "add    rax,r14"
+    },
+    {
+      "va": 22684536,
+      "hex": "488d0d8155ebfe",
+      "instruction": "lea    rcx,[rip+0xfffffffffeeb5581]        # 457900 <_ZNKSt5ctypeIcE8do_widenEc@@Base-0x58f0b30>"
+    },
+    {
+      "va": 22684543,
+      "hex": "4c01f1",
+      "instruction": "add    rcx,r14"
+    },
+    {
+      "va": 22684546,
+      "hex": "498d9538010000",
+      "instruction": "lea    rdx,[r13+0x138]"
+    },
+    {
+      "va": 22684553,
+      "hex": "498db540010000",
+      "instruction": "lea    rsi,[r13+0x140]"
+    },
+    {
+      "va": 22684560,
+      "hex": "4939bd30010000",
+      "instruction": "cmp    QWORD PTR [r13+0x130],rdi"
+    },
+    {
+      "va": 22684567,
+      "hex": "4989fd",
+      "instruction": "mov    r13,rdi"
+    },
+    {
+      "va": 22684570,
+      "hex": "480f44d0",
+      "instruction": "cmove  rdx,rax"
+    },
+    {
+      "va": 22684574,
+      "hex": "480f44f1",
+      "instruction": "cmove  rsi,rcx"
+    },
+    {
+      "va": 22684578,
+      "hex": "488b06",
+      "instruction": "mov    rax,QWORD PTR [rsi]"
+    },
+    {
+      "va": 22684581,
+      "hex": "488b0a",
+      "instruction": "mov    rcx,QWORD PTR [rdx]"
+    }
+  ],
+  "command": [
+    "objdump",
+    "-d",
+    "-M",
+    "intel",
+    "--insn-width=16",
+    "--start-address=22683808",
+    "--stop-address=22684619",
+    "artifacts/node/115/hl-node"
+  ],
+  "objdump_version": "GNU objdump (GNU Binutils for Debian) 2.40",
+  "elapsed_seconds": 0.2408216049998373,
+  "prior_native_seconds_conservative": 8.444281751000105,
+  "tests_ran": 0,
+  "captured_code_executed": false,
+  "limitations": "Selected xref and instruction context only; semantic role, native return and novelty remain to be established."
+}
